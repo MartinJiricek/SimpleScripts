@@ -1,0 +1,1 @@
+netsh interface ipv4 set address name="Local Area Connection" static 172.16.80.182 255.255.252.0
