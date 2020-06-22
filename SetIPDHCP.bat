@@ -1,1 +1,3 @@
-netsh interface ipv4 set address name="Local Area Connection" dhcp
+set adapter="Local Area Network"
+
+netsh interface ipv4 set address name=%adapter% dhcp
