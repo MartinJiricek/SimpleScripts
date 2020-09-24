@@ -1,0 +1,3 @@
+set /p DUMMY=Restarting wifi, Hit ENTER to continue...
+netsh interface set interface "Wi-Fi 4" DISABLED
+netsh interface set interface "Wi-Fi 4" ENABLED
